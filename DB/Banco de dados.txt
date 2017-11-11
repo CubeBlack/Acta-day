@@ -1,0 +1,36 @@
+
+
+*Usuários
+	E-mail (Chave Primaria)
+	Nome (Not Null)
+	Senha (Not Null)
+	Tipo de Usuário [Administrador/Leitor]
+
+
+*Publicação diária
+	Data (Chave Primaria)
+	Título (Not Null)
+	Versículo (Not Null)
+	Texto (Not Null)
+	Oração (Not Null)
+	Missão Diária (Not Null)
+	Publicado Por (Not Null) (Chave Estrangeira) {inserido automatica mente ao publicar}
+
+
+
+*Comentários
+	ID (Chave Primaria/Auto Incremento)
+	ID do Usuário (Chave Estrangeira)
+	ID Publicação (Chave Estrangeira)
+	Tipo do comentario [Oração/Correção]
+	Comentário (Not Null)
+	
+	
+	
+
+
+
+Criar função para não mostra as publucações q foram escrita antes do tempo.
+a mesma so ficara desponivel do da sua "data" em diante.
+
+

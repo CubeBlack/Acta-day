@@ -1,0 +1,198 @@
+@font-face {
+	font-family: ambarella;
+	src: url('fontes/ambarella.otf');
+}
+
+@font-face {
+	font-family: JosefinSlab-SemiBold;
+	src: url('fontes/JosefinSlab-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: JosefinSlab-BoldItalic;
+	src: url('fontes/JosefinSlab-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: Griffy-Regular;
+	src: url('fontes/Griffy-Regular.ttf');
+}
+
+@font-face {
+	font-family: IndieFlower;
+	src: url('fontes/IndieFlower.ttf');
+}
+
+*{padding: 0; margin: 0;}
+
+body {
+	background-image: url(img/background.jpg);
+	background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+	*{padding: 0; margin: 0;}
+	body {
+		margin: 0 20% 0 20%;
+	}
+}
+
+.data {
+	display: inline;
+	float: right;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	clear: right;
+}
+
+.bordas1 {
+	border-radius: .5em;
+}
+
+#cabecalho {
+	font-family: Griffy-Regular;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.6);
+	color: rgba(0, 0, 0, 0.9);
+	width: auto;
+	padding:  .009%;
+	margin-top: 1%;
+	font-size: 1.3em;
+	/*border-radius: 0em 3.5em 0em 3.5em;*/
+}
+
+.cabecalho_usuario {
+	background: rgba(255, 255, 255, 0.6);
+	float: right;
+	width: auto;
+	padding: .6%;
+	border-radius: 0em 0em .2em .2em;
+	font-family: JosefinSlab-SemiBold;
+}
+
+#publicacao {
+	width: 98%;
+	height: auto;
+	margin: .3em;
+	margin-left: 0em;
+	padding: .5em;
+	background: rgba(200, 200, 200, 0.9);
+	clear: right;
+}
+
+.titulo {
+	font-family: ambarella;
+	border-top: .01em solid;
+	border-bottom: .01em solid;
+	border-color: #fff;
+	text-align: center;
+	font-size: 1.7em;
+	margin: 0em;
+	padding: .3em;
+	font-weight: bold;
+}
+
+.versiculo {
+	text-align: right;
+	font-style: oblique;
+	padding-left: 45%;
+	padding-right: 2em;
+	margin: 0em;
+	margin-top: .7em;
+}
+
+
+
+.texto {
+	font-family: JosefinSlab-SemiBold;
+	text-align: justify;
+	text-indent: .6cm;
+	padding: 0em 2em 0em 2em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.texto p {
+	margin: 0em;
+}
+
+.paragrago-1 {
+	text-indent: 0cm;
+}
+
+
+.oracao {
+	border-top: .1em solid;
+	border-bottom: .1em solid;
+	padding: 1em;
+	border-color: #fff;
+	text-align: center;
+	font-style: oblique;
+}
+
+.publicada_por {
+	text-align: right;
+	padding: 0em;
+	margin: 0em;
+}
+
+
+
+#missao_comentario {
+	background-color: #cccc00;
+	width: 98%;
+	margin: .3em;
+	margin-left: 0em;
+	padding: .5em;
+	background: rgba(0, 200, 0, 0.7);
+}
+
+.titulo_missao_comentarios {
+	font-weight: bold;
+	font-family: IndieFlower;
+	font-size: 1.1em;
+	margin: 0em;
+	float: left;
+}
+
+.texto_missao_comentarios {
+	font-family: JosefinSlab-SemiBold;
+	font-size: 1.2em;
+	text-align: center;
+	padding: .3em;
+	margin: 0em;
+	clear: left;
+}
+
+.comentado-publicado_por {
+	font-family: JosefinSlab-BoldItalic;
+	font-style: italic;
+	text-align: right;
+	padding: 0em;
+	margin: 0em;
+}
+
+#anterior_proximo {
+	float: right;
+}
+
+
+/*cadstro inicio*/
+
+textarea {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+
+/*cadstro fim*/
+
+
+#rotape {
+	color: #fff;
+	width: 98%;
+	margin: .3em;
+	margin-left: 0em;
+	padding: .5em;
+	text-align: center;
+	font-weight: bold;
+}

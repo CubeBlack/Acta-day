@@ -1,0 +1,142 @@
+#in-Getdatdate{
+  background: rgba(150,150,150,0.8);
+  overflow: hidden;
+  padding: 3px;
+	width: 229px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top-right-radius: 5px;
+}
+#in-Getdatdate #input-Getdatdate{
+  width: 100px;
+	padding: 1px;
+  float: left;
+  text-align: center;
+}
+#in-Getdatdate #btn-Abrir-Getdatdate, #btn-Fechar-Getdatdate{
+  width: 35px;
+	height: 20px;
+  float: left;
+	border: 1px solid #ccc;
+}
+#in-Getdatdate #btn-Abrir-Getdatdate{
+	background: #eee url('img/icones/seta-baixo.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #btn-Fechar-Getdatdate{
+	background: #eee url('img/icones/seta-cima.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+
+#in-Getdatdate #btn-Abrir-Getdatdate:active{
+	background: #4ee url('img/icones/seta-baixo.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #btn-Fechar-Getdatdate:active{
+	background: #4ee url('img/icones/seta-cima.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+
+#in-Getdatdate #display-Getdatdate{
+  overflow: hidden;
+  padding: 5px;
+  width: 225px;
+  display: none;
+	position: absolute;
+	font-family: cursive;
+}
+#in-Getdatdate #display-Getdatdate #topMenu-Getdatdate span{
+  float: left;
+  margin: 0px 2px 0px 2px;
+  font-size: 17px;
+  width: 40px;
+}
+#in-Getdatdate #display-Getdatdate #topMenu-Getdatdate button{
+  width: 25px;
+	height: 20px;
+  float: left;
+	border: 1px solid #ccc;
+	margin: 0px 2px 0px 2px;
+}
+#in-Getdatdate #display-Getdatdate #btn-menos-mes{
+	background: #eee url('img/icones/seta-baixo.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #display-Getdatdate #btn-max-mes{
+	background: #eee url('img/icones/seta-cima.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #display-Getdatdate #btn-menos-ano{
+	background: #eee url('img/icones/seta-baixo.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #display-Getdatdate #btn-max-ano{
+	background: #eee url('img/icones/seta-cima.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+
+#in-Getdatdate #display-Getdatdate #btn-menos-mes:active{
+	background: #e80 url('img/icones/seta-baixo.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #display-Getdatdate #btn-max-mes:active{
+	background: #e80 url('img/icones/seta-cima.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #display-Getdatdate #btn-menos-ano:active{
+	background: #e80 url('img/icones/seta-baixo.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #display-Getdatdate #btn-max-ano:active{
+	background: #e80 url('img/icones/seta-cima.png') no-repeat;
+	background-size: 25px 15px;
+	background-position: center;
+}
+#in-Getdatdate #display-Getdatdate ul{
+  overflow: hidden;
+  list-style: none;
+  padding: 2px;
+}
+#in-Getdatdate #display-Getdatdate ul li{
+  background: #444;
+	cursor: pointer;
+}
+#in-Getdatdate #display-Getdatdate ul li:hover{
+  background: #806600;
+}
+#in-Getdatdate #display-Getdatdate a.btn-skygger-studios{
+  color:#fff;
+  font-size: 12px;
+  font-family: cursive;
+  text-shadow: 0px 0px 5px #000;
+  vertical-align: top;
+  margin-right: 3px;
+}
+#in-Getdatdate #display-Getdatdate a.btn-skygger-studios:hover{
+  text-decoration: underline;
+  color: #CCFFCC;
+}
+
+#in-Getdatdate #display-Getdatdate a.btn-dannke-studios{
+  color: #99CCFF;
+  font-size: 12px;
+  font-family: cursive;
+  text-shadow: 0px 0px 3px #000;
+  vertical-align: top;
+  margin-left: 3px;
+}
+#in-Getdatdate #display-Getdatdate a.btn-dannke-studios:hover{
+  text-decoration: underline;
+  color: #CCFFCC;
+}
